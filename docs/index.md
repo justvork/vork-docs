@@ -1,7 +1,7 @@
 # Welcome to Vork
 
 ## Why Vork Exists
-
+ 
 Every business has software that almost fits.
 
 A spreadsheet exists because the CRM can't quite do what the business needs.
