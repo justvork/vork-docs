@@ -1,0 +1,120 @@
+/* Vork docs-level styling for MkDocs header and admonitions */
+
+/* Material dark palette alignment with Vork theme */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0f0f0f;
+  --md-default-bg-color--light: #151515;
+  --md-default-bg-color--lighter: #1a1a1a;
+  --md-default-bg-color--lightest: #212529;
+  --md-default-fg-color: #e9ecef;
+  --md-default-fg-color--light: #cfd4da;
+  --md-default-fg-color--lighter: #adb5bd;
+  --md-primary-fg-color: #0f0f0f;
+  --md-primary-fg-color--light: #1a1a1a;
+  --md-primary-fg-color--dark: #000000;
+  --md-accent-fg-color: #fdaa02;
+  --md-typeset-a-color: #fdaa02;
+  --md-code-bg-color: #151515;
+  --md-code-fg-color: #e9ecef;
+}
+
+.md-main,
+.md-main__inner,
+.md-content,
+.md-content__inner,
+.md-sidebar,
+.md-sidebar__scrollwrap,
+.md-nav,
+.md-typeset table:not([class]) {
+  background-color: #0f0f0f;
+}
+
+.md-typeset,
+.md-typeset p,
+.md-typeset li,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: #e9ecef;
+}
+
+.md-typeset hr {
+  border-bottom-color: #333333;
+}
+
+.md-typeset blockquote {
+  border-left-color: #fdaa02;
+  color: #cfd4da;
+}
+
+.md-typeset code,
+.md-typeset pre {
+  background-color: #151515;
+  color: #e9ecef;
+}
+
+.md-typeset .md-button {
+  border-color: #fdaa02;
+  color: #fdaa02;
+}
+
+.md-typeset a,
+.md-nav__link:hover,
+.md-nav__link:focus,
+.md-nav__link--active {
+  color: #fdaa02;
+}
+
+/* Material theme header */
+.md-header {
+  background-color: #0f0f0f;
+}
+
+.md-header__title,
+.md-header__topic,
+.md-header__topic .md-ellipsis {
+  color: #e9ecef;
+}
+
+.md-header__button.md-logo img,
+.md-logo img {
+  height: 28px;
+  width: auto;
+}
+
+/* Header GitHub link: keep name, hide stats/counters */
+.md-header__source .md-source__facts {
+  display: none;
+}
+
+.md-header__source .md-source {
+  padding: 0;
+}
+
+/* Built-in MkDocs theme header fallback */
+.navbar {
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #333333;
+}
+
+.navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #e9ecef !important;
+}
+
+.navbar-brand img {
+  height: 28px;
+  width: auto;
+}
+
+/* Further reading callout */
+.md-typeset .admonition.info {
+  border-color: #fdaa02;
+  background-color: rgba(253, 170, 2, 0.06);
+}
+
+.md-typeset .admonition.info > .admonition-title {
+  background-color: rgba(253, 170, 2, 0.12);
+  color: #fdaa02;
+}
