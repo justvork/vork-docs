@@ -11,7 +11,7 @@ nav:
       - Reflection-generated tools: tool-directory/runtime-reflection-tools.md
       - Skill-generated tools: tool-directory/runtime-skill-tools.md
       - MCP binding tools: tool-directory/runtime-mcp-tools.md
-    - Notifications:
+  - Notifications:
       - Overview: notifications/index.md
       - Notification Basics: notifications/notification-basics.md
   - Docker Instructions:
